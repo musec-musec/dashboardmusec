@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Musec dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="left">
+      <div class="search-container">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" class="search" placeholder="Parin goat?">
+      </div>
+    </div>
+    <div class="center">
+      <a href="#" class="nav-icon active"><i class="fas fa-home"></i> <span>Home</span></a>
+      <a href="#" class="nav-icon"><i class="fas fa-user-friends"></i> <span>Network</span></a>
+      <a href="#" class="nav-icon"><i class="fas fa-comment-dots"></i> <span>Messaging</span></a>
+      <a href="#" class="nav-icon"><i class="fas fa-bell"></i> <span>Notifications</span></a>
+    </div>
+    <div class="right">
+      <img src="avatar.png" class="avatar" alt="User Avatar">
+    </div>
+
+  </nav>
+
+  <div class="top-section-container">
+    <div class="user-greeting">
+      <img src="avatar.png" alt="Profile" class="profile-pic" />
+      <div class="welcome-text">
+        <p class="greet">Welcome back!</p>
+        <h2 class="username">Pranav Kapur</h2>
+      </div>
+    </div>
+    <div class="story-bar">
+      <div class="story"><img src="avatar.png" alt="Story 1"></div>
+      <div class="story"><img src="avatar.png" alt="Story 2"></div>
+      <div class="story"><img src="avatar.png" alt="Story 3"></div>
+      <div class="story"><img src="avatar.png" alt="Story 4"></div>
+      <div class="story"><img src="avatar.png" alt="Story 5"></div>
+      <div class="story"><img src="avatar.png" alt="Story 6"></div>
+      <div class="story"><img src="avatar.png" alt="Story 7"></div>
+      <div class="story"><img src="avatar.png" alt="Story 8"></div>
+      <div class="story"><img src="avatar.png" alt="Story 9"></div>
+      <div class="story"><img src="avatar.png" alt="Story 10"></div>
+      <div class="story"><img src="avatar.png" alt="Story 11"></div>
+      <div class="story"><img src="avatar.png" alt="Story 12"></div>
+      <div class="story"><img src="avatar.png" alt="Story 13"></div>
+      <div class="story"><img src="avatar.png" alt="Story 14"></div>
+      <div class="story"><img src="avatar.png" alt="Story 15"></div>
+
+    </div>
+  </div>
+
+
+  <div class="main-container">
+
+    <div class="left-column">
+            <div class="create-post">
+        <div class="post-input-section">
+          <img src="avatar.png" class="post-avatar" />
+          <input type="text" class="post-input" placeholder="Write a post" />
+        </div>
+        <div class="post-options">
+          <div><i class="fas fa-video"></i> Video</div>
+          <div><i class="fas fa-image"></i> Photo</div>
+          <div><i class="fas fa-microphone"></i> Audio</div>
+        </div>
+      </div>
+      <div class="find-studio-card">
+        <div class="header">
+          <h2>Find Studios Near You</h2>
+          <i class="fa-solid fa-arrow-right-long arrow"></i>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.705697184839!2d-86.80243218479373!3d33.52066028075121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88891be50dd9caa5%3A0x902d30dbce2c449b!2sBirmingham%2C%20AL%2C%20USA!5e0!3m2!1sen!2sin!4v1690379265984!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="studio-list-container">
+          <div class="studio">
+            <div class="studio-info">
+              <h3>Musec studio</h3>
+              <p>3.5 km   <span class="green">★ 4.9</span>   <span class="available">Available</span></p>
+            </div>
+            <button class="book-btn">BOOK</button>
+          </div>
+          <div class="studio">
+            <div class="studio-info">
+              <h3>Musec studio</h3>
+              <p>3.5 km   <span class="red">★ 2.4</span>   <span class="booked">Booked</span></p>
+            </div>
+            <button class="book-btn">BOOK</button>
+          </div>
+          <div class="studio">
+            <div class="studio-info">
+              <h3>Another Studio Name</h3>
+              <p>5.2 km   <span class="green">★ 4.1</span>   <span class="available">Available</span></p>
+            </div>
+            <button class="book-btn">BOOK</button>
+          </div>
+          <div class="studio">
+            <div class="studio-info">
+              <h3>Cool Beats Studio</h3>
+              <p>1.1 km   <span class="green">★ 5.0</span>   <span class="available">Available</span></p>
+            </div>
+            <button class="book-btn">BOOK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center-column">
+
+<div class="post-container">
+      <div class="post">
+        <div class="post-header">
+          <img src="avatar.png" alt="Pranav Kapur" class="post-avatar-pic">
+          <div class="post-header-info">
+            <h4>Pranav Kapur</h4>
+            <p>100,000 followers</p>
+          </div>
+          <div class="post-header-right">
+            <i class="fas fa-ellipsis-h"></i>
+            <button class="connect-btn">Connect</button>
+          </div>
+        </div>
+        <div class="post-body">
+          <p>Kitlesel kaynak kullanımına Moov'dan dikkat çeken örnek: Kiralamada indirimle operasyon yönetimi</p>
+          <div class="post-image-placeholder"></div>
+        </div>
+        <div class="post-footer">
+          <div class="post-stats">
+            <span>5 likes</span>
+            <span>10 comments</span>
+          </div>
+          <div class="post-actions">
+            <div class="action-btn"><i class="fas fa-heart"></i> react</div>
+            <div class="action-btn"><i class="fas fa-comment"></i> comment</div>
+            <div class="action-btn"><i class="fas fa-retweet"></i> repost</div>
+            <div class="action-btn"><i class="fas fa-share"></i> share</div>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="post-header">
+          <img src="avatar.png" alt="Pranav Kapur" class="post-avatar-pic">
+          <div class="post-header-info">
+            <h4>Pranav Kapur</h4>
+            <p>100,000 followers</p>
+          </div>
+          <div class="post-header-right">
+            <i class="fas fa-ellipsis-h"></i>
+            <button class="connect-btn">Connect</button>
+          </div>
+        </div>
+        <div class="post-body">
+          <p>Kitlesel kaynak kullanımına Moov'dan dikkat çeken örnek: Kiralamada indirimle operasyon yönetimi</p>
+          <div class="post-image-placeholder"></div>
+        </div>
+        <div class="post-footer">
+          <div class="post-stats">
+            <span>5 likes</span>
+            <span>10 comments</span>
+          </div>
+          <div class="post-actions">
+            <div class="action-btn"><i class="fas fa-heart"></i> react</div>
+            <div class="action-btn"><i class="fas fa-comment"></i> comment</div>
+            <div class="action-btn"><i class="fas fa-retweet"></i> repost</div>
+            <div class="action-btn"><i class="fas fa-share"></i> share</div>
+          </div>
+        </div>
+      </div>
+            <div class="post">
+        <div class="post-header">
+          <img src="avatar.png" alt="Pranav Kapur" class="post-avatar-pic">
+          <div class="post-header-info">
+            <h4>Pranav Kapur</h4>
+            <p>100,000 followers</p>
+          </div>
+          <div class="post-header-right">
+            <i class="fas fa-ellipsis-h"></i>
+            <button class="connect-btn">Connect</button>
+          </div>
+        </div>
+        <div class="post-body">
+          <p>Kitlesel kaynak kullanımına Moov'dan dikkat çeken örnek: Kiralamada indirimle operasyon yönetimi</p>
+          <div class="post-image-placeholder"></div>
+        </div>
+        <div class="post-footer">
+          <div class="post-stats">
+            <span>5 likes</span>
+            <span>10 comments</span>
+          </div>
+          <div class="post-actions">
+            <div class="action-btn"><i class="fas fa-heart"></i> react</div>
+            <div class="action-btn"><i class="fas fa-comment"></i> comment</div>
+            <div class="action-btn"><i class="fas fa-retweet"></i> repost</div>
+            <div class="action-btn"><i class="fas fa-share"></i> share</div>
+          </div>
+        </div>
+      </div>
+            <div class="post">
+        <div class="post-header">
+          <img src="avatar.png" alt="Pranav Kapur" class="post-avatar-pic">
+          <div class="post-header-info">
+            <h4>Pranav Kapur</h4>
+            <p>100,000 followers</p>
+          </div>
+          <div class="post-header-right">
+            <i class="fas fa-ellipsis-h"></i>
+            <button class="connect-btn">Connect</button>
+          </div>
+        </div>
+        <div class="post-body">
+          <p>Kitlesel kaynak kullanımına Moov'dan dikkat çeken örnek: Kiralamada indirimle operasyon yönetimi</p>
+          <div class="post-image-placeholder"></div>
+        </div>
+        <div class="post-footer">
+          <div class="post-stats">
+            <span>5 likes</span>
+            <span>10 comments</span>
+          </div>
+          <div class="post-actions">
+            <div class="action-btn"><i class="fas fa-heart"></i> react</div>
+            <div class="action-btn"><i class="fas fa-comment"></i> comment</div>
+            <div class="action-btn"><i class="fas fa-retweet"></i> repost</div>
+            <div class="action-btn"><i class="fas fa-share"></i> share</div>
+          </div>
+        </div>
+      </div>
+            <div class="post">
+        <div class="post-header">
+          <img src="avatar.png" alt="Pranav Kapur" class="post-avatar-pic">
+          <div class="post-header-info">
+            <h4>Pranav Kapur</h4>
+            <p>100,000 followers</p>
+          </div>
+          <div class="post-header-right">
+            <i class="fas fa-ellipsis-h"></i>
+            <button class="connect-btn">Connect</button>
+          </div>
+        </div>
+        <div class="post-body">
+          <p>Kitlesel kaynak kullanımına Moov'dan dikkat çeken örnek: Kiralamada indirimle operasyon yönetimi</p>
+          <div class="post-image-placeholder"></div>
+        </div>
+        <div class="post-footer">
+          <div class="post-stats">
+            <span>5 likes</span>
+            <span>10 comments</span>
+          </div>
+          <div class="post-actions">
+            <div class="action-btn"><i class="fas fa-heart"></i> react</div>
+            <div class="action-btn"><i class="fas fa-comment"></i> comment</div>
+            <div class="action-btn"><i class="fas fa-retweet"></i> repost</div>
+            <div class="action-btn"><i class="fas fa-share"></i> share</div>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="post-header">
+          <img src="avatar.png" alt="Pranav Kapur" class="post-avatar-pic">
+          <div class="post-header-info">
+            <h4>Pranav Kapur</h4>
+            <p>100,000 followers</p>
+          </div>
+          <div class="post-header-right">
+            <i class="fas fa-ellipsis-h"></i>
+            <button class="connect-btn">Connect</button>
+          </div>
+        </div>
+        <div class="post-body">
+          <p>Kitlesel kaynak kullanımına Moov'dan dikkat çeken örnek: Kiralamada indirimle operasyon yönetimi</p>
+          <div class="post-image-placeholder"></div>
+        </div>
+        <div class="post-footer">
+          <div class="post-stats">
+            <span>5 likes</span>
+            <span>10 comments</span>
+          </div>
+          <div class="post-actions">
+            <div class="action-btn"><i class="fas fa-heart"></i> react</div>
+            <div class="action-btn"><i class="fas fa-comment"></i> comment</div>
+            <div class="action-btn"><i class="fas fa-retweet"></i> repost</div>
+            <div class="action-btn"><i class="fas fa-share"></i> share</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="right-column">
+      <div class="musician-card">
+        <div class="card-header">
+          <span>Connect With Musicians</span>
+          <i class="fas fa-arrow-right"></i>
+        </div>
+        <div class="musician-list-container">
+          <div class="musician-list">
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+
+            <div class="musician">
+              <img src="avatar.png" alt="avatar" class="avatar" />
+              <div class="info">
+                <h4>Pranav Kapur</h4>
+                <p>UI/UX designer</p>
+              </div>
+              <button class="connect-btn">Connect</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="messages-btn">
+        <div class="left-content">
+          <i class="fab fa-facebook-messenger"></i>
+          <span>Messages</span>
+        </div>
+        <div class="avatars">
+          <img src="avatar.png" alt="Avatar" />
+          <img src="avatar.png" alt="Avatar" />
+          <img src="avatar.png" alt="Avatar" />
+        </div>
+      </button>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
